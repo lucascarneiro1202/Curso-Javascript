@@ -1,0 +1,40 @@
+Ordem dos códigos
+
+Sequências{
+    > var n = 3
+    undefined
+    > n += 2
+    5
+    > window.alert(n)
+    5
+}
+
+Condições{
+    // Uma bifurcação na sequência do código, podendo assumir diferentes direções
+
+    > if (condição) {
+        caso a condição for true
+    } else {
+        caso a condição for false
+    }
+}
+
+Tipos de Condição{
+    > if (condição) {           // Condição simples
+        true                    
+    }
+
+    > if (condição) {           // Condição composta
+        true
+    } else {
+        false
+    }
+
+    > if (condição) {           // Condição composta
+        true
+    } else if (condição) {
+        true
+    } else {
+        false
+    }
+}

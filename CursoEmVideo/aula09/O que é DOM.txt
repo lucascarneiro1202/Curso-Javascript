@@ -1,0 +1,40 @@
+O que é DOM?
+
+DOM{
+    Sigla{
+        D ocument
+        O bject
+        M odel
+    }
+
+    Árvore DOM{
+        > window (Janela do site. O navegador é uma 'window')
+
+        > location(Localização e URL do site), document(Documento atual), history(Histórico) [DENTRO DE 'window']
+
+        > html(Parte 'html' do site) [DENTRO DE 'document'] 
+
+        > head(Cabeça), body(Corpo) [DENTRO DE 'html']
+
+        > meta, title [DENTRO DE 'head']
+
+        > h1(Título de tamanho 1), p(Parágrafo), div(Divisão) [DENTRO DE 'body']
+
+        /*Note que funciona como uma árvore genealógica. 'window' é parent (pai) de 'location, 'document' e 'history'. O 'html', por sua vez,
+        é child (filho) de 'document'*/
+    }
+
+    Selecionando{
+        > por Marca
+        getElementsByTagName()
+        > por ID
+        getElementByID() 
+        > por Nome
+        getElementsByName()
+        > por Classe
+        getElementsByClassName()
+        > por Seletor
+        querySelector()         ==> Cuidado!! Nos parênteses desse comando, a string deve ser em CSS com o nome da 'tag' e suas especificações
+        querySelectorAll()          'id' => '#'  &&  'class' => '.'
+    }
+}  

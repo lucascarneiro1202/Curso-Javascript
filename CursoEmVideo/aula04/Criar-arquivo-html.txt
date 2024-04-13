@@ -1,0 +1,1 @@
+Para criar o escopo de um arquivo html, basta digitar 'html:5' ou '!'

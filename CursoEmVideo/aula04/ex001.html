@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!-- Doctype é uma maneira de definir que estou utilizando html5-->
+<html lang="pt-br">
+<!--Nessa linha eu defino a linguagem do meu codigo do site-->
+<head>
+<!--No head, fica a cabeça do meu site, toda a configuração dele-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <!--No style, eu chamo o CSS e mudo o estilo do meu site-->
+    <style>
+        /*Esta é uma maneira de comentar dentro do CSS*/
+        body {
+            background-color:rgb(75, 103, 129);
+            color:cornsilk;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color:rgb(255, 208, 0);
+        }
+    </style>
+</head>
+<body>
+<!--Dentro do body, é onde fica o conteúdo do meu site, inclusive os scripts-->
+    <h1>Olá, Mundo!</h1>
+    <p>Me livrei da maldição!!</p>
+    <script>
+        window.alert('Minha primeira mensagem!')
+        const confirm = window.confirm('Está gostando de javascript?')
+
+        if(confirm === true){
+            window.alert('Que bom que você está gostando!')
+        }
+        else{
+            window.prompt('Porque você não está gostando?')
+        }
+
+        let nome = window.prompt('Qual é seu nome?')
+        let idade = window.prompt('Quantos anos você tem?')
+
+        window.alert(`Seu nome é ${nome} e você tem ${idade} anos`)
+    </script>
+</body>
+</html>

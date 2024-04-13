@@ -1,0 +1,121 @@
+Operadores
+
+ARITMÉTICOS{
+    Operadores{
+        > 5 + 2      ADIÇÃO
+        7
+        > 5 - 2      SUBTRAÇÃO
+        3
+        > 5 * 2      MULTIPLICAÇÃO
+        10
+        > 5 / 2      DIVISÃO COM NÚMEROS REAIS
+        2.5
+        > 5 % 2      RESTO DA DIVISÃO
+        1
+        > 5 ** 2     POTÊNCIA
+        25
+    }
+
+    Alerta{
+        -----CUIDADO!-----
+        > 5 + 3 / 2
+        4   ===> ERRADO!!!
+        6.5 ===> CERTO!!!
+
+        //Realizamos primeiro a divisão e depois a adição!!!
+
+        //Se quisermos realizar a adição antes da divisão, basta colocá-la entre parênteses
+
+        >(5 + 3) / 2
+        
+        4 ===> AGORA SIM CERTO!!!
+    }
+    Precedência{
+        -----Em ordem de execução-----
+        1° => '()' ;
+        2° => '**' ;
+        3° => '*' , '/' , '%' ;
+        4° => '+' , '-' ;
+    }
+
+ATRIBUIÇÃO{
+    Atribuição Simples{
+        > var a = 5 + 3          
+        8
+        > var b = a % 5           
+        3
+        > var c = 5 * b ** 2      
+        45
+        > var d = 10 - a / 2      
+        6
+        > var e = 6 * 2 / d       
+        2
+        > var f = b % e + 4 / e   
+        3
+    }
+
+    Auto-atribuições{
+        > var n = 3
+        3
+        > n = n + 4        
+        7
+        > n = n - 5        
+        2
+        > n = n * 4        
+        8
+        > n = n / 2        
+        4
+        > n = n ** 2       
+        16
+        > n = n % 5        
+        1
+    }
+
+    Simplificando{
+        >var n = 3
+        3
+        > n = n + 4
+        7
+            OU
+        > n += 4
+        7     --->    Também funciona!
+
+        /* Esse modo de escrita só é válido quando a 
+        variável não recebe o valor de outra variável */
+
+        Exemplo{
+            > var n1 = 3
+            3
+            > var n2 = 4
+            1
+
+            > n1 += n1 + n2  
+            error    ===>   ESTÁ ERRADO!!!
+            > n1 += 4       
+            7        ===>   ESTÁ CERTO!!!
+        }
+        Operações Simplificadas{
+            > n += 4
+            > n -= 5
+            > n *= 4
+            > n /= 2
+            > n **= 2
+            > n %= 5
+        }
+        Operadores de incremento{
+            > var x = 5
+            undefined
+            > x = x + 1
+            6
+            > x = x - 1
+            5
+
+            //Porém, também posso escrever essas operações simples da seguinte forma:
+
+            > x++
+            5
+            > x--
+            5
+        }
+    }
+} 

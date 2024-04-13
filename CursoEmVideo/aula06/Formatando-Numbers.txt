@@ -1,0 +1,21 @@
+Formatando Numbers
+
+> var n1 = 1545.5
+1543.5      
+
+> n1.toFixed(2)       //Para transformar o decimal para 2 casas
+'1545.50'   
+
+>n1.toFixed(2).replace('.', ',')    //Para tranformar o '.' em ','
+'1545,50'
+
+>n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})   //Para tranformar o número em Real
+'R$ 1,545.50'
+
+>n1.toLocaleString('pt-BR', {style: 'currency', currency: 'USD'})   //Para tranformar o número em Dólar
+'US$ 1,545.50'
+
+>n1.toLocaleString('pt-BR', {style: 'currency', currency: 'EUR'})   //Para tranformar o número em Euros
+'€ 1,545.50'
+
+//Apesar dos números aparentarem estar com o ponto e a vírgula invertidos, será escrito normalmente no site web. CONFIA

@@ -1,0 +1,9 @@
+//String ---> Number
+
+Number.parseInt(n)  OU   Number(n)  (Para transformar em 'number')
+Number.parseFloat(n)    (Para tranformar em 'float')   
+
+//Number --> String
+
+String(n)       (Para tranformar em 'string')
+n.toString()

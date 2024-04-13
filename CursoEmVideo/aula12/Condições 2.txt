@@ -1,0 +1,30 @@
+Condição Aninhada {       //Colocar mais de uma condição
+    > if (cond1) {
+        // bloco1
+    } else {
+        if (cond2) {
+            // bloco2           //Linha 5 ate 9 é uma condição aninhada!!
+        } else {
+            // bloco 3
+        }
+    }
+}
+
+Condição Múltipla{
+    // Tem a possibilidade não só de 'true' e 'false', como também valores fixos
+
+    > switch (expressão) {
+        case valor1:
+        bloco1
+        break       ==>     //OBRIGATÓRIO USAR O 'break'!!!
+        case valor2:
+        bloco2
+        break
+        case valor3:
+        bloco3
+        break
+        default:
+        bloco4
+        break       ==>     //No default, não é obrigatório, mas é recomendável usar para acostumar.
+    }
+} 

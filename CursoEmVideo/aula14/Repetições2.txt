@@ -1,0 +1,8 @@
+Com variavel de controle{
+    for (inicio; teste; incremento) {
+        bloco
+    }
+
+    // Se o teste for 'true', a ação é realizada e há um incremento até que o teste lógico dê 'false'
+    
+}

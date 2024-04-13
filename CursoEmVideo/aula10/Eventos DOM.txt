@@ -1,0 +1,12 @@
+Eventos DOM     //É tudo aquilo que possa acontecer com qualquer elemento
+
+<DIV>{
+    Eventos de mouse{
+        > mouseenter    => Passar o mouse na div        //Foi mudado para 'mouseover' nas ultimas atualizações
+        > mousemove     => Mover o mouse na div
+        > mousedown     => Clicar na div e segurar
+        > mouseup       => Soltar o mouse que estava clicando na div
+        > click         => Clique inteiro (apertar e soltar)
+        > mouseout      => Passar o mouse fora da div
+    }
+} 

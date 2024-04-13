@@ -1,0 +1,11 @@
+Formatando Strings
+
+var s = 'JavaScript'
+
+'Eu estou aprendendo s'  //não faz interpolação
+'Eu estou aprendendo' + s   //usa concatenação
+`Eu estou aprendendo ${s}`  //usa template strings |OBS|: Não se usa aspas(''), se usa CRASE(``)
+
+s.length    //quantos caracteres a string tem
+s.toUpperCase()     //tudo para 'MAIÚSCULAS'
+s.toLowerCase()     //tudo para 'minúsculas'

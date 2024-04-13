@@ -1,0 +1,36 @@
+Com teste lógico no início {
+    while (condição) {      ==> Enquanto a condição for verdadeira, a ação dentro do bloco será repetida em loop.
+        bloco
+    }
+
+    // Exemplo: Ação de comer uma pizza inteira
+
+    function comerPizza() {
+        comerFatia()
+        comerFatia()
+        comerFatia()
+        comerFatia()
+        comerFatia()
+        comerFatia()
+        comerFatia()
+        comerFatia()
+    }
+
+    // Essa ação pode ser simplificada dessa forma:
+
+    function comerPizza() {
+            while (temFatia()) {
+                comerFatia()
+            }
+        }
+
+    // Enquanto tiver fatia, comerei uma fatia        
+}
+
+Com teste lógico no final {
+    do {
+        bloco
+    } while (codição)
+
+    // Primeiro faz a ação, depois verifica a condição
+}

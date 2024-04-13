@@ -1,0 +1,9 @@
+Função => É um conjunto de códigos que serão executados quando um evento acontecer
+
+O que é função{
+    Exemplo{
+        function ação(parametros) {
+            bloco
+        }
+    }
+} 
